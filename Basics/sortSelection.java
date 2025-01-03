@@ -1,4 +1,4 @@
-public class insetrionSort {
+public class sortSelection {
     public static void printArray(int myarr[]){
         for (int i = 0; i < myarr.length; i++) {
             System.err.print(myarr[i] + " ");
@@ -7,18 +7,20 @@ public class insetrionSort {
     
     public static void main(String[] args) {
 
-        // Insertion Sort
+        // Selection Sort
 
         int myarr[] = {8, 5, 7, 1, 4, 3, 2, 9, 6};
 
         for (int i = 0; i < myarr.length-1 ; i++) {
-            int current = myarr[i];
-            int j = i-1;
-            while (j >= 0 && current < myarr[j]) {
-                myarr[j+1] = myarr[j];
-                j--;
+            int samllest = i;
+            for (int j = i+1; j < myarr.length; j++) {
+                if (myarr[samllest] > myarr[j]) {
+                    samllest = j;
+                }
             }
-            myarr[j+1] = current;
+            int temp = myarr[samllest];
+            myarr[samllest] = myarr[i];
+            myarr[i] = temp; 
         }
         printArray(myarr);
     }

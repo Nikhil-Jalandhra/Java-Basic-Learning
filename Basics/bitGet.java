@@ -1,4 +1,4 @@
-public class getBit {
+public class bitGet {
     public static void main(String[] args) {
 
         //  To check the Bit of Number is zero or one.

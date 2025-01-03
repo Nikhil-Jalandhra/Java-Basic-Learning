@@ -1,4 +1,4 @@
-public class bubbleSorting {
+public class sortingBubble {
     public static void printArray(int myarr[]){
         for (int i = 0; i < myarr.length; i++) {
             System.err.print(myarr[i] + " ");

@@ -1,4 +1,4 @@
-public class setBit {
+public class bitSet {
     public static void main(String[] args) {
 
         //   To Set the bit of a number 
