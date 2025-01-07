@@ -1,4 +1,4 @@
-public class clearBit {
+public class bitClear {
     public static void main(String[] args) {
 
         // To clear bit from specific position
