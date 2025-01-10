@@ -1,4 +1,4 @@
-public class sortInsetrion {
+public class sortInsertion {
     public static void printArray(int myarr[]){
         for (int i = 0; i < myarr.length; i++) {
             System.err.print(myarr[i] + " ");
@@ -11,7 +11,7 @@ public class sortInsetrion {
 
         int myarr[] = {8, 5, 7, 1, 4, 3, 2, 9, 6};
 
-        for (int i = 0; i < myarr.length-1 ; i++) {
+        for (int i = 1; i < myarr.length ; i++) {
             int current = myarr[i];
             int j = i-1;
             while (j >= 0 && current < myarr[j]) {
