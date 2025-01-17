@@ -7,7 +7,6 @@ public class recursionHanoi {
         System.out.println("Transfer disk " + disk + " from " + src + " to " + desti);
         return ;
         }
-        
         towerofHanoi(disk-1, src, desti, help);
         System.out.println("Transfer disk " + disk + " from " + src + " to " + desti);
         towerofHanoi(disk-1, help, src, desti);
@@ -21,8 +20,7 @@ public class recursionHanoi {
             
             System.out.println("Enter nummber of disk you have");
             int Disk = sc.nextInt();
-            towerofHanoi(Disk, "source", "helper", "destination3");
-
+            towerofHanoi(Disk, "source", "helper", "destination");
         }
     }
 }
