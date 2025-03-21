@@ -15,8 +15,8 @@ public class MySetOverview {
 
         //      Way to make any Map && Set Synchronized --> Thread Safe
 
-        // Collections.synchronizedMap(propMap); 
-        // Collections.synchronizedSet(propSet);
+        Collections.synchronizedMap(null); 
+        Collections.synchronizedSet(null);
 
         // DrabBacks --> No optimization, If one work second thread does not 
 
