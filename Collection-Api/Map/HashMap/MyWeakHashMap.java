@@ -1,4 +1,4 @@
-package Map;
+package Map.HashMap;
 
 import java.util.Map;
 import java.util.WeakHashMap;
