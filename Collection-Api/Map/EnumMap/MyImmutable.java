@@ -20,13 +20,14 @@ public class MyImmutable {
         // There for we have clean method
 
         Map<String, Integer> map3 = Map.of("Bindass", 138, "PocketFoog", 75);
-        
+        System.out.println(map3);
         // It ensure that it will be unmuttable
         // map3.put("FastTrack", 3000);
         
         // Map.of have only 10 seats avilable
         
         Map<String, Integer> map4 = Map.ofEntries(Map.entry("Bindass", 138), Map.entry("PocketFoog", 75));
+        System.out.println(map4);
         // Map.ofEntries have only Unlimited seats avilable
 
     }

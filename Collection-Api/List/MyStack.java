@@ -8,8 +8,8 @@ public class MyStack {
         // Extended class of vector
         Stack<Integer> cookie = new Stack<>();
         cookie.push(2);
-        cookie.add(1);
-        cookie.add(1);
+        cookie.add(3);
+        cookie.add(8);
         cookie.pop(); // removing element
         int top = cookie.peek(); // seeking top element
 

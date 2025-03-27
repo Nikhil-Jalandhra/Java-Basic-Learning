@@ -7,7 +7,6 @@ public class MySortedMap {
     public static void main(String[] args) {
         // sorted array is a interface that implement tree
         // entries are sorted based on the keys, either in the natural order or based on comparator.
-        // 
         SortedMap<Integer, String> loan = new TreeMap<>((a,b) -> b-a);
         loan.put(89, "Vivek");
         loan.put(95, "Sammer");
